@@ -23,7 +23,7 @@ a {
 
 img {
    display: block;
-   max-width: 100%;
+   width: 100%;
 }
 
 /* superinfo */
@@ -82,4 +82,46 @@ img {
 
 .menu-nav a:hover {
    color: #122ab2;
+}
+
+/* introducao */
+.introducao {
+   max-width: 960px;
+   margin: 0 auto;
+   font-size: 3rem;
+   line-height: 1;
+   padding: 60px 10px;
+}
+
+/* sobre */
+.sobre {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 60px 10px;
+   border: 2px solid #2c70ff;
+   border-left: 0;
+   border-right: 0;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+.sobre-info {
+   flex: 2 1 300px;
+}
+
+.sobre-info h1 {
+   font-size: 3rem;
+   margin-bottom: 8px;
+}
+
+.sobre-info p {
+   font-size: 1.25rem;
+   color: #7c7c7c;
+   line-height: 1.4;
+   margin-bottom: 16px;
+}
+
+.sobre-img {
+   flex: 1 1 160px;
 }
